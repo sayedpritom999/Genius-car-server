@@ -37,9 +37,17 @@ require('dotenv').config()
  */
 
 
-// heroku (server deploy):
+// Heroku (server deploy):
 // install heroku cli 
 // make sure "const port = process.env.PORT || 5000;" & ""start": "node index.js"," is setup 
 // heroku login 
+// make sure to git add ., git commit -m"", 
+// git push heroku main
+// copy paste config vars from .env file to heroku settings > Config Vars 
+// make sure to white listed all ip addresses from mongodb
+
+// CONNECT SERVER WITH CLIENT
+
+// UPDATE SERVER  
 // make sure to git add ., git commit -m"", 
 // git push heroku main

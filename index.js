@@ -52,7 +52,10 @@ async function run() {
             res.send({accessToken})
         })
 
-
+        // heroku server update test
+        app.get('/hero', (req, res) => {
+            res.send("Server updated in heroku")
+        })
 
 
         // services API
