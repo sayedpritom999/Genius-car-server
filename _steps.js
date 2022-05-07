@@ -46,7 +46,10 @@ require('dotenv').config()
 // copy paste config vars from .env file to heroku settings > Config Vars 
 // make sure to white listed all ip addresses from mongodb
 
-// CONNECT SERVER WITH CLIENT
+// CONNECT SERVER WITH CLIENT AND DEPLOY CLIENT
+// replace localhost by heroku link
+// npm run build
+// firebase deploy
 
 // UPDATE SERVER  
 // make sure to git add ., git commit -m"", 
